@@ -124,6 +124,7 @@ Blog area style
   gap: 1.25rem;
   /* gap: 20px; */
 }
+
 .nav-bar{
   width: 20%;
   height: 15.8125rem;
@@ -205,8 +206,8 @@ Blog area style
   transition: all 0.3s linear;
 }
 .blog-button a:hover{
-  border-color: #b6b6b6;
-  color: #b6b6b6;
+  border-color: #B99600;
+  color: #B99600;
 }
 .blog-title{
   margin-bottom: 1.25rem;  

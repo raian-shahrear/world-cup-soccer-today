@@ -16,6 +16,14 @@
     font-size: 1.375em;  
   /* font-size: 22px; */
   }
+  .top-article{
+    overflow: hidden;
+  }
+  .ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   .top-article p{
     font-size: 0.875em;  
     /* font-size: 14px; */
@@ -87,6 +95,14 @@
   .top-title h1{
     font-size: 1.375em;  
   /* font-size: 22px; */
+  }
+  .top-article{
+    overflow: hidden;
+  }
+  .ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .top-article p{
     font-size: 0.875em;  
