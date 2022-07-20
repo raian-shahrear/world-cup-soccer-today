@@ -250,14 +250,14 @@ Current Page Connected
 /*========= 
 View Button 
 ==========*/
+#display{
+  display: none;
+}
 .view-button{
   display: flex;
   justify-content: center;
   margin-bottom: 5.625rem;
   /* margin-bottom: 90px; */
-}
-#display{
-  display: none;
 }
 /* -----END view button area----- */
 
