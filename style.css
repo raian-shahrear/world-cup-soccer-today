@@ -307,29 +307,29 @@ Footer area style
   margin-top: 2.5rem;
   /* margin-top: 40px; */
 }
-.social-icon .fa-twitter{
-  color: #1C96E8;
-}
-.social-icon .fa-facebook-f{
-  color: #0674E7;
-}
-.social-icon .fa-instagram{
-  color: #A140A6;
-}
-.social-icon .fa-youtube{
-  color: #FF0000;
-}
 .social-icon a{
   display: inline-block;
   text-decoration: none;
-  color: #FFFFFF;
-  font-size: 1.25em;  
-  /* font-size: 20px; */
+  /* font-size: 1.25em;   */
+  font-size: 24px;
   transition: all 0.3s linear;
 }
-.social-icon a:hover{
+.social-icon a i:hover{
   color: #B99600;
 }
+a .fa-twitter{
+  color: #1C96E8;
+}
+a .fa-facebook-f{
+  color: #0674E7;
+}
+a .fa-instagram{
+  color: #A140A6;
+}
+a .fa-youtube{
+  color: #FF0000;
+}
+
 .footer-copyright{
   margin-top: 4.375rem;
   /* margin-top: 70px; */
