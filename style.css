@@ -299,6 +299,37 @@ Footer area style
 .footer-items ul li a:hover{
   color: #B99600;
 }
+.social-icon{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* gap: 32px; */
+  margin-top: 2.5rem;
+  /* margin-top: 40px; */
+}
+.social-icon .fa-twitter{
+  color: #1C96E8;
+}
+.social-icon .fa-facebook-f{
+  color: #0674E7;
+}
+.social-icon .fa-instagram{
+  color: #A140A6;
+}
+.social-icon .fa-youtube{
+  color: #FF0000;
+}
+.social-icon a{
+  display: inline-block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.25em;  
+  /* font-size: 20px; */
+  transition: all 0.3s linear;
+}
+.social-icon a:hover{
+  color: #B99600;
+}
 .footer-copyright{
   margin-top: 4.375rem;
   /* margin-top: 70px; */
