@@ -43,7 +43,14 @@
     background-color: #FFFFFF;
   }
   .nav-bar ul a{
-    border: 2px solid #E8E8E8;
+    border: 2px solid #161616;
+    color: #161616;
+    
+  }
+  .nav-bar ul a:hover{
+    background-color: #161616;
+    color: #FFFFFF;
+    transition: all 0.3s linear;
   }
   .blog-main-part{
     width: 100%;
@@ -100,7 +107,13 @@
     background-color: #FFFFFF;
   }
   .nav-bar ul a{
-    border: 2px solid #E8E8E8;
+    border: 2px solid #161616;
+    color: #161616;
+    transition: all 0.3s linear;
+  }
+  .nav-bar ul a:hover{
+    background-color: #161616;
+    color: #FFFFFF;
   }
   .blog-main-part{
     width: 100%;
@@ -151,7 +164,13 @@
     background-color: #FFFFFF;
   }
   .nav-bar ul a{
-    border: 2px solid #E8E8E8;
+    border: 2px solid #161616;
+    color: #161616;
+    transition: all 0.3s linear;
+  }
+  .nav-bar ul a:hover{
+    background-color: #161616;
+    color: #FFFFFF;
   }
   .nav-bar{
     width: 100%;
