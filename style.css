@@ -145,7 +145,7 @@ Blog area style
 .nav-bar ul li{
   list-style-type: none;
 }
-.nav-bar ul a{
+.nav-bar ul li a{
   display: inline-block;
   text-decoration: none;
   color: #FFFFFF;
@@ -159,9 +159,17 @@ Blog area style
   border: 2px solid #E8E8E8;
   transition: all 0.3s linear;
 }
-.nav-bar ul a:hover{
+.nav-bar ul li a:hover{
   background-color: #FFFFFF;
   color: #161616;
+}
+/*====================
+Current Page Connected 
+====================*/
+.nav-bar ul li a#current-page, .nav-bar ul li a#current-page:hover{
+  background-color: #DD0000;
+  color: #FFFFFF;
+  border-color: transparent;
 }
 
 .blog-main-part{
