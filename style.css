@@ -45,6 +45,7 @@ Top area style
   border-radius: 20px;
   margin: 3.125rem 0 8.125rem;  
   /* margin: 50px 0 130px; */
+  padding-bottom: 10px;
 }
 .top-items{
   display: flex;
@@ -119,7 +120,6 @@ Blog area style
 .nav-bar ul li{
   list-style-type: none;
 }
-
 .nav-bar ul a{
   text-decoration: none;
   color: #161616;
@@ -127,10 +127,11 @@ Blog area style
   font-size: 1.25em;  
   /* font-size: 20px; */
   background-color: #FFFFFF;
-  padding: 1.0625rem 2.4375rem;  
-  /* padding: 17px 39px; */
+  padding: 1.0625rem 1.5625rem;  
+  /* padding: 17px 25px; */
   border-radius: 10px;
 }
+
 .blog-main-part{
   width: 75%;
   display: grid;
@@ -210,9 +211,9 @@ View Button
   margin-bottom: 5.625rem;
   /* margin-bottom: 90px; */
 }
-/* #display{
+#display{
   display: none;
-} */
+}
 /* -----END view button area----- */
 
 
@@ -240,12 +241,14 @@ Footer area style
   /* font-size: 40px; */
   font-family: 'Cormorant SC', serif;
 }
-.footer-items ul{
+.footer-items, .footer-items ul{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3.125rem;
   /* gap: 50px; */
 }
+
 .footer-items ul li{
   list-style-type: none;
 }
