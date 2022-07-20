@@ -1,5 +1,7 @@
 
-/* X-Small device (Fold Mobile) */
+/*==========================
+X-Small device (Fold Mobile) 
+==========================*/
 @media only screen and (max-width: 349px){
   .top-items{
     flex-direction: column;
@@ -43,7 +45,6 @@
     animation: cover-img-move 1s ease-in 0.5s 1;
   }
 
-
   #blog-area{
     margin-bottom: 1.5625rem;
     /* margin-bottom: 25px; */
@@ -60,11 +61,11 @@
     background-color: transparent;
     border: 2px solid #161616;
     color: #161616;
+    transition: all 0.3s linear;
   }
   .nav-bar ul li a:hover{
     background-color: #161616;
     color: #FFFFFF;
-    transition: all 0.3s linear;
   }
   .blog-main-part{
     width: 100%;
@@ -79,7 +80,9 @@
 }
 
 
-/* Small device (Mobile) */
+/*=================== 
+Small device (Mobile) 
+===================*/
 @media only screen and (min-width: 350px) and (max-width: 576px) {
   .top-items{
     flex-direction: column;
@@ -131,6 +134,7 @@
     background-color: #FFFFFF;
   }
   .nav-bar ul li a{
+    background-color: transparent;
     border: 2px solid #161616;
     color: #161616;
     transition: all 0.3s linear;
@@ -152,7 +156,9 @@
 }
 
 
-/* Medium device (Tab/iPad) */
+/*====================== 
+Medium device (Tab/iPad) 
+======================*/
 @media only screen and (min-width: 577px) and (max-width: 975px){
   .top-items{
     padding: 0 1.25rem;  
@@ -188,6 +194,7 @@
     background-color: #FFFFFF;
   }
   .nav-bar ul li a{
+    background-color: transparent;
     border: 2px solid #161616;
     color: #161616;
     transition: all 0.3s linear;
@@ -224,7 +231,9 @@
 }
 
 
-/* Large device */
+/*========== 
+Large device 
+==========*/
 @media only screen and (min-width: 976px) and (max-width: 1121px){
   .top-items{
     padding: 0 1.25rem;  
@@ -252,7 +261,9 @@
 }
 
 
-/* X-Large device */
+/*============
+X-Large device 
+============*/
 @media only screen and (min-width: 1122px) and (max-width: 1634px){
   .top-items{
     padding: 0 1.25rem;  
