@@ -29,6 +29,12 @@
   .top-cover{
     display: none;
   }
+  .top-cover a img{
+    margin-top: 3rem;  
+    /* margin-top: 48px; */
+    animation: cover-img-move 1s ease-in 0.5s 1;
+  }
+
 
   #blog-area{
     margin-bottom: 1.5625rem;
@@ -92,6 +98,8 @@
   .top-cover a img{
     margin-top: 3rem;  
     /* margin-top: 48px; */
+    transform: scale(1.2);
+    animation: cover-img-move 1s ease-in 0.5s 1;
   }
 
   #blog-area{
