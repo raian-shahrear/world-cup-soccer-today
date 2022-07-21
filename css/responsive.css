@@ -64,8 +64,8 @@ X-Small device (Fold Mobile)
     transition: all 0.3s linear;
   }
   .nav-bar ul li a:hover{
-    background-color: #161616;
-    color: #FFFFFF;
+    border-color: #B99600;
+    color: #B99600;
   }
   .blog-main-part{
     width: 100%;
@@ -117,8 +117,8 @@ Small device (Mobile)
   .top-cover a img{
     margin-top: 3rem;  
     /* margin-top: 48px; */
-    transform: scale(1.2);
-    animation: cover-img-move 1s ease-in 0.5s 1;
+    transform: scale(1.1) translateX(5%);
+    animation: none;
   }
 
   #blog-area{
@@ -140,8 +140,8 @@ Small device (Mobile)
     transition: all 0.3s linear;
   }
   .nav-bar ul li a:hover{
-    background-color: #161616;
-    color: #FFFFFF;
+    border-color: #B99600;
+    color: #B99600;
   }
   .blog-main-part{
     width: 100%;
@@ -200,8 +200,8 @@ Medium device (Tab/iPad)
     transition: all 0.3s linear;
   }
   .nav-bar ul li a:hover{
-    background-color: #161616;
-    color: #FFFFFF;
+    border-color: #B99600;
+    color: #B99600;
   }
   .nav-bar{
     width: 100%;
